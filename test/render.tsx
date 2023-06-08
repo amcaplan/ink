@@ -31,6 +31,7 @@ const term = (
 		reject = reject2;
 	});
 
+	// eslint-disable-next-line @typescript-eslint/naming-convention
 	const {CI, ...ciAgnosticEnv} = process.env;
 	const env = {
 		...ciAgnosticEnv,
